@@ -1,0 +1,196 @@
+2018-03-20 16:22:13 INFO  ApiTests:94 - Verify htmlinjection yiedls 500 on Users
+2018-03-20 16:22:35 INFO  ApiTests:28 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 16:22:56 INFO  ApiTests:44 - Verify Insert new User via POST yields success
+2018-03-20 16:23:27 INFO  ApiTests:94 - Verify htmlinjection yiedls 500 on Users
+2018-03-20 16:29:14 INFO  ApiTests:28 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 16:29:34 INFO  ApiTests:94 - Verify htmlinjection yiedls 500 on Users
+2018-03-20 16:29:35 INFO  ApiTests:28 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 16:29:36 INFO  ApiTests:44 - Verify Insert new User via POST yields success
+2018-03-20 16:30:06 INFO  ApiTests:94 - Verify htmlinjection yiedls 500 on Users
+2018-03-20 16:31:20 INFO  ApiTests:28 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:06:38 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:06:40 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:12:17 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:12:18 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:13:14 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:13:16 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:18:11 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:18:12 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:22:00 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:22:02 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:23:21 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:23:22 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:24:17 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:24:18 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:24:18 INFO  ApiTests:39 - Verify Insert duplicate via POST yields error
+2018-03-20 19:25:43 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:25:45 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:25:45 INFO  ApiTests:39 - Verify Insert duplicate via POST yields error
+2018-03-20 19:26:44 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:26:46 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:26:46 INFO  ApiTests:39 - Verify Insert duplicate via POST yields error
+2018-03-20 19:26:51 INFO  ApiTests:25 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-20 19:27:33 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:27:44 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:28:03 INFO  ApiTests:35 - Verify Insert new User via POST yields success
+2018-03-20 19:36:16 INFO  ApiTests:39 - Verify Insert new User via POST yields success
+2018-03-20 19:36:18 INFO  ApiTests:46 - Verify Insert duplicate via POST yields error
+2018-03-20 19:38:08 INFO  ApiTests:39 - Verify Insert new User via POST yields success
+2018-03-20 19:38:10 INFO  ApiTests:46 - Verify Insert duplicate via POST yields error
+2018-03-20 19:38:10 INFO  ApiTests:49 - Verify Insert duplicate via PUT yields suceess
+2018-03-20 19:38:10 INFO  ApiTests:54 - Verify Upsert via PUT yields suceess
+2018-03-20 19:38:10 INFO  ApiTests:58 - Verify delete Users for existing user yields succes
+2018-03-20 19:38:11 INFO  ApiTests:61 - Verify delete Users for existing user yields succes
+2018-03-20 19:45:27 INFO  ApiTests:39 - Verify Insert new User via POST yields success
+2018-03-20 19:45:28 INFO  ApiTests:46 - Verify Insert duplicate via POST yields error
+2018-03-20 19:45:28 INFO  ApiTests:49 - Verify Insert duplicate via PUT yields suceess
+2018-03-20 19:45:28 INFO  ApiTests:54 - Verify Upsert via PUT yields suceess
+2018-03-20 19:45:29 INFO  ApiTests:58 - Verify delete Users for existing user yields succes
+2018-03-20 19:45:29 INFO  ApiTests:61 - Verify delete Users for existing user yields succes
+2018-03-20 20:27:59 INFO  ApiTests:75 - {  "name": "Soujanya Imm", "username": "soujanyai", "email": "si@test.com", "address": { "street": "123 dummy ave", "suite": "101", "city": "Atlanta"},    "phone": "1-770-736-8031 x56442",    "website": "testsiorg",    "company": {  "name": "MES", "bs": "harness real-time e-markets"}}
+2018-03-20 20:33:44 INFO  ApiTests:77 - {  "name": "Soujanya Imm", "username": "soujanyai", "email": "si@test.com", "address": { "street": 1234, "suite": "101", "city": "Atlanta"},    "phone": "1-770-736-8031 x56442",    "website": "testsi.org",    "company": {  "name": "MES", "bs": "harness real-time e-markets"}}
+2018-03-20 20:35:18 INFO  ApiTests:77 - {  "name": "Soujanya Imm", "username": "soujanyai", "email": "si@test.com", "address": { "street": "123 dummy ave", "suite": "101", "city": 1234},    "phone": "1-770-736-8031 x56442",    "website": "testsi.org",    "company": {  "name": "MES", "bs": "harness real-time e-markets"}}
+2018-03-20 21:21:33 INFO  ApiTests:90 - Verify for a given Post - title and body are present
+2018-03-20 21:22:59 INFO  ApiTests:90 - Verify for a given Post - title and body are present
+2018-03-20 21:24:57 INFO  ApiTests:90 - Verify for a given Post - title and body are present
+2018-03-20 21:25:25 INFO  ApiTests:90 - Verify for a given Post - title and body are present
+2018-03-20 21:25:56 INFO  ApiTests:90 - Verify for a given Post - title and body are present
+2018-03-21 00:14:39 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:14:41 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:16:29 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:16:31 INFO  ApiTests:42 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:17:29 INFO  ApiTests:55 - Verify Insert new User via POST yields success
+2018-03-21 00:17:31 INFO  ApiTests:61 - Verify Insert duplicate via POST yields error
+2018-03-21 00:24:18 INFO  ApiTests:55 - Verify Insert new User via POST yields success
+2018-03-21 00:25:26 INFO  ApiTests:55 - Verify Insert new User via POST yields success
+2018-03-21 00:27:42 INFO  ApiTests:64 - Verify Inserting existing post  yields error
+2018-03-21 00:27:48 INFO  ApiTests:67 - Verify Insert duplicate via PUT yields suceess
+2018-03-21 00:27:49 INFO  ApiTests:72 - Verify Upsert via PUT yields suceess
+2018-03-21 00:27:49 INFO  ApiTests:76 - Verify deleting existing user yields succes
+2018-03-21 00:27:49 INFO  ApiTests:79 - Verify deleting already deleted user yields error
+2018-03-21 00:29:17 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:29:19 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:30:33 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:30:35 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:32:13 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:32:15 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:33:15 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:33:16 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 5 
+2018-03-21 00:34:40 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:34:42 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 5 
+2018-03-21 00:34:42 INFO  ApiTests:39 - Verify no.of users that has specified website are less  than 100 
+2018-03-21 00:37:12 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:37:13 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:37:14 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:37:38 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:37:40 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:37:40 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:38:59 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:39:01 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:39:01 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:41:43 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:41:44 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:41:44 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:42:27 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:42:29 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:42:29 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:43:07 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:43:09 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:43:09 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:44:06 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:44:08 INFO  ApiTests:35 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:44:08 INFO  ApiTests:39 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:44:42 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:44:44 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:44:44 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:45:38 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:45:40 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:45:40 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:47:29 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:47:31 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:47:31 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:48:09 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:48:11 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:48:11 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:50:17 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:50:18 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:50:18 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:51:40 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:51:41 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:51:41 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:51:41 INFO  ApiTests:41 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:52:21 INFO  ApiTests:29 - Verify for a given user - username, city, lang and bs values are correct
+2018-03-21 00:52:23 INFO  ApiTests:33 - Verify no.of users from specified city are greater than 50 
+2018-03-21 00:52:23 INFO  ApiTests:37 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 00:52:23 INFO  ApiTests:41 - Verify if users with specified website are less than 100 and if all of them have specified string in catchphrase 
+2018-03-21 01:03:22 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:04:40 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:09:47 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:09:49 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:09:49 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:09:49 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is less than 2
+2018-03-21 01:13:16 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:13:37 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:13:39 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:13:39 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:13:39 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:15:45 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:15:46 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:15:46 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:15:47 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:15:47 INFO  ApiTests:126 - Verify for a given existing Post upsert is successfull and assert the updated text
+2018-03-21 01:15:47 INFO  ApiTests:127 - Verify Upsert via PUT yields suceess
+2018-03-21 01:17:19 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:17:20 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:17:20 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:17:21 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:17:21 INFO  ApiTests:126 - Verify for a given existing Post upsert is successfull and assert the updated text
+2018-03-21 01:17:21 INFO  ApiTests:127 - Verify Upsert via PUT yields suceess
+2018-03-21 01:17:38 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:17:40 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:17:40 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:17:40 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:17:40 INFO  ApiTests:126 - Verify for a given existing Post upsert is successfull and assert the updated text
+2018-03-21 01:17:40 INFO  ApiTests:127 - Verify Upsert via PUT yields suceess
+2018-03-21 01:17:40 INFO  ApiTests:131 - Verify deleting existing post yields success
+2018-03-21 01:17:40 INFO  ApiTests:134 - Verify deleting already deleted post yields error
+2018-03-21 01:17:40 INFO  ApiTests:137 - Verify for a given deleted post upsert yields success
+2018-03-21 01:19:41 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:19:49 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:19:49 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:19:49 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:19:49 INFO  ApiTests:126 - Verify for a given existing Post upsert is successfull and assert the updated text
+2018-03-21 01:19:49 INFO  ApiTests:127 - Verify Upsert via PUT yields suceess
+2018-03-21 01:19:49 INFO  ApiTests:131 - Verify deleting existing post yields success
+2018-03-21 01:19:50 INFO  ApiTests:134 - Verify deleting already deleted post yields error
+2018-03-21 01:19:50 INFO  ApiTests:137 - Verify for a given deleted post upsert yields success
+2018-03-21 01:23:26 INFO  ApiTests:107 - Verify Post is inserted successfully for valid data
+2018-03-21 01:23:27 INFO  ApiTests:112 - Verify for a given Post title ends with specified string
+2018-03-21 01:23:27 INFO  ApiTests:116 - Verify no.of posts posted by specified user  is greater than equal to 5
+2018-03-21 01:23:27 INFO  ApiTests:121 - Verify no.of posts that contains given string in Title posted by a given user is greater than 0
+2018-03-21 01:23:28 INFO  ApiTests:126 - Verify for a given existing Post upsert is successfull and assert the updated text
+2018-03-21 01:23:28 INFO  ApiTests:127 - Verify Upsert via PUT yields suceess
+2018-03-21 01:23:28 INFO  ApiTests:131 - Verify deleting existing post yields success
+2018-03-21 01:23:28 INFO  ApiTests:134 - Verify deleting already deleted post yields error
+2018-03-21 01:32:33 INFO  ApiTests:158 - Verify Comment is inserted successfully for valid data
+2018-03-21 01:32:35 INFO  ApiTests:163 - Verify for a given Comment - email has @
+2018-03-21 01:32:35 INFO  ApiTests:167 - Verify for a given post no.of comments are less than or equal to 5
+2018-03-21 01:32:35 INFO  ApiTests:168 - Verify for a given Comment - email has @
+2018-03-21 01:34:46 INFO  ApiTests:158 - Verify Comment is inserted successfully for valid data
+2018-03-21 01:34:48 INFO  ApiTests:163 - Verify for a given Comment - email has @
+2018-03-21 01:34:48 INFO  ApiTests:167 - Verify for a given post no.of comments are less than or equal to 5
+2018-03-21 01:34:48 INFO  ApiTests:168 - Verify for a given Comment - email has @
+2018-03-21 01:35:44 INFO  ApiTests:158 - Verify Comment is inserted successfully for valid data
+2018-03-21 01:35:45 INFO  ApiTests:163 - Verify for a given Comment - email has @
+2018-03-21 01:35:45 INFO  ApiTests:167 - Verify for a given post no.of comments are less than or greter than 5
+2018-03-21 01:35:45 INFO  ApiTests:168 - Verify for a given Comment - email has @
+2018-03-21 01:35:46 INFO  ApiTests:172 - Verify for a given post no.of comments that has illegallanguage word less than or equal to 10
+2018-03-21 01:35:46 INFO  ApiTests:177 - Verify for a given existing comment upsert is successfull and assert the updated text
+2018-03-21 01:38:15 INFO  ApiTests:158 - Verify Comment is inserted successfully for valid data
+2018-03-21 01:38:16 INFO  ApiTests:163 - Verify for a given Comment - email has @
+2018-03-21 01:38:16 INFO  ApiTests:167 - Verify for a given post no.of comments are less than or greter than 5
+2018-03-21 01:38:16 INFO  ApiTests:168 - Verify for a given Comment - email has @
+2018-03-21 01:38:17 INFO  ApiTests:172 - Verify for a given post no.of comments that has illegallanguage word less than or equal to 10
+2018-03-21 01:38:17 INFO  ApiTests:177 - Verify for a given existing comment upsert is successfull and assert the updated text
+2018-03-21 01:38:17 INFO  ApiTests:181 - Verify deleting existing comment yields succes
+2018-03-21 01:38:17 INFO  ApiTests:184 - Verify deleting already deleted comment yields error
